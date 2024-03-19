@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: fixed;
+}
+
+
+.title{
+    font-family: 'Inter';
+    color: #5B0B9B;
+    font-size: 96px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    left: 50%;
+}
+
+
+.faixa{
+   height: 100vh;
+   width: 50px;
+   position: absolute;
+   background-color: #5B0B9B;
+}
+
+.bra{
+    position: absolute;
+    left: 95%;
+    bottom: 80%;
+}
+
+.br{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    margin-top: 30vh;
+    position: relative;
+    left: 55%;
+    padding-bottom: 20vh;
+    
+}
+
+.br > input{
+    display: grid;
+    width: 47vw;
+    height: 5vh;
+    border: none;
+    background-color:none;
+
+}
+
+.lineblack1{
+    display: grid;
+    width: 50vw;
+    height: 2px;
+    background-color: black;
+}
+
+.usa{
+    display: flex;
+    position: absolute;
+    left: 95%;
+    bottom: 10%;
+}
+
+.en{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    margin-top: 1vh;
+    position: relative;
+    left: 55%;
+}
+
+.en > input{
+    display: grid;
+    width: 47vw;
+    height: 5vh;
+    outline: 0;
+    background-color: none;
+    border: none;
+}
+.lineblack2{
+    display: grid;
+    width: 50vw;
+    height: 2px;
+    background-color: black;
+}
+
+.lineblack2 > img{
+    display: flex;
+}
+.rodape{
+    position: relative;
+    left: 60%;
+   top: 30%;
+}
+
